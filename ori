@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="id"><head>
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+  <title>Juara288 - Situs Game Online Resmi & Terpercaya Indonesia | Pilihan Game Terlengkap</title>
+  <meta name="description" content="Juara288 adalah situs game online resmi Indonesia yang hadir sebagai platform hiburan terpercaya dengan pengalaman bermain stabil, aman, dan pilihan game terlengkap untuk semua jenis game tahun ini.">
+  <meta name="keywords" content="juara288, juara 288, daftar juara288, login juara288, situs game juara288">
+  <link rel="canonical" href="https://juara288.com/">
+<link rel="amphtml" href="https://juara288.com/mobile-amp/">
+<link rel="alternate" hreflang="id-id" href="https://juara288.com/mobile-amp/"/>
+<link rel="alternate" href="https://juara288.com/mobile-amp/"/>
+<link rel="alternate" hreflang="id" href="https://juara288.com/mobile-amp/"/>
+<link rel="alternate" hreflang="en" href="https://juara288.com/mobile-amp/"/>
+<link rel="icon" type="image/png" sizes="96x96" href="/icon.png">
+
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body { font-family: 'Poppins', sans-serif; background: #0A1A2E; color: #FFFFFF; overflow-x: hidden; line-height: 1.5; }
+    canvas#particle-canvas { position: fixed; top: 0; left: 0; width: 100%; height: 100%; display: block; z-index: 0; pointer-events: none; }
+    .wrapper { position: relative; z-index: 2; }
+    .container { max-width: 1280px; margin: 0 auto; padding: 0 24px; }
+    /* navbar */
+    nav { position: sticky; top: 0; z-index: 100; background: rgba(13,33,55,0.95); backdrop-filter: blur(12px); border-bottom: 1px solid rgba(42,158,212,0.3); padding: 16px 0; }
+    .nav-flex { display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; }
+    .logo a { font-size: 28px; font-weight: 800; background: linear-gradient(135deg, #FFD700, #FFB347); -webkit-background-clip: text; background-clip: text; color: transparent; text-decoration: none; letter-spacing: 1px; }
+    .nav-links { display: flex; gap: 32px; list-style: none; }
+    .nav-links a { color: white; text-decoration: none; font-weight: 500; transition: 0.3s; }
+    .nav-links a:hover, .nav-links a.active { color: #FFD700; }
+    .hamburger { display: none; font-size: 28px; background: none; border: none; color: white; cursor: pointer; }
+    /* buttons */
+    .btn-primary { background: linear-gradient(95deg, #FFD700, #FFA500); border: none; padding: 12px 28px; border-radius: 40px; font-weight: 700; color: #0A1A2E; cursor: pointer; transition: 0.2s; display: inline-block; text-decoration: none; font-size: 1rem; }
+    .btn-secondary { background: transparent; border: 1.5px solid #2A9ED4; padding: 12px 28px; border-radius: 40px; font-weight: 600; color: #2A9ED4; text-decoration: none; display: inline-block; transition: 0.2s; }
+    .btn-secondary:hover { background: #2A9ED4; color: white; }
+    .btn-primary:hover { transform: scale(1.03); box-shadow: 0 8px 20px rgba(255,215,0,0.3); }
+    /* cards */
+    .card-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 30px; margin: 40px 0; }
+    .card { background: rgba(255,255,255,0.05); border-radius: 28px; padding: 30px 20px; backdrop-filter: blur(4px); transition: 0.25s; border: 1px solid rgba(42,158,212,0.2); text-align: center; }
+    .card:hover { transform: translateY(-8px); border-color: #FFD700; }
+    section { padding: 70px 0; }
+    h1, h2 { margin-bottom: 20px; font-weight: 700; }
+    h1 { font-size: 2.8rem; background: linear-gradient(125deg, #FFF, #FFD700); -webkit-background-clip: text; background-clip: text; color: transparent; }
+    h2 { font-size: 2rem; border-left: 5px solid #FFD700; padding-left: 20px; margin-bottom: 40px; }
+    .hero { text-align: center; padding: 80px 0; }
+    .flex-buttons { display: flex; gap: 20px; justify-content: center; flex-wrap: wrap; margin-top: 32px; }
+    footer { background: #0A1A2E; border-top: 1px solid #2A9ED4; padding: 50px 0 30px; margin-top: 20px; }
+    .footer-grid { display: flex; flex-wrap: wrap; justify-content: space-between; gap: 30px; margin-bottom: 30px; }
+    .social a { color: #FFD700; margin-right: 20px; text-decoration: none; font-weight: 500; }
+    .copyright { text-align: center; font-size: 0.85rem; opacity: 0.7; }
+    /* slider */
+    .slider-container { position: relative; max-width: 100%; margin: 30px 0; overflow: hidden; border-radius: 28px; }
+    .slider-wrapper { display: flex; transition: 0.5s ease-in-out; }
+    .slide { min-width: 100%; background: linear-gradient(145deg, #0D2137, #0A1A2E); padding: 40px; border-radius: 28px; border: 1px solid #FFD700; text-align: center; }
+    .slider-btn { position: absolute; top: 50%; transform: translateY(-50%); background: #2A9ED4; border: none; color: white; font-size: 28px; cursor: pointer; padding: 10px 16px; border-radius: 50%; z-index: 5; }
+    .prev { left: 20px; } .next { right: 20px; }
+    .dots { text-align: center; margin: 20px 0; } .dot { height: 12px; width: 12px; background: #ccc; display: inline-block; border-radius: 50%; margin: 0 6px; cursor: pointer; } .dot.active { background: #FFD700; }
+    /* testimoni */
+    .testi-grid { display: flex; gap: 24px; overflow-x: auto; scroll-behavior: smooth; padding: 10px 0; scrollbar-width: thin; }
+    .testi-card { min-width: 280px; background: #0D2137; padding: 24px; border-radius: 24px; border-left: 4px solid #FFD700; }
+    .accordion-item { background: rgba(255,255,255,0.05); margin-bottom: 16px; border-radius: 20px; overflow: hidden; }
+    .accordion-header { padding: 18px 24px; cursor: pointer; font-weight: 600; display: flex; justify-content: space-between; }
+    .accordion-content { max-height: 0; overflow: hidden; transition: 0.3s; padding: 0 24px; border-top: none; }
+    .accordion-item.active .accordion-content { max-height: 300px; padding: 0 24px 20px 24px; }
+    .faq-link { margin-top: 20px; display: inline-block; color: #FFD700; }
+    .cta-banner { background: linear-gradient(95deg, #FFD700, #2A9ED4); padding: 60px 20px; text-align: center; border-radius: 48px; margin: 40px 0; }
+    .reveal { opacity: 0; transform: translateY(30px); transition: 0.7s; }
+    .reveal.active { opacity: 1; transform: translateY(0); }
+    @media (max-width: 768px) { .nav-links { display: none; width: 100%; flex-direction: column; align-items: center; gap: 16px; margin-top: 20px; } .nav-links.show { display: flex; } .hamburger { display: block; } h1 { font-size: 2rem; } h2 { font-size: 1.8rem; } .container { padding: 0 16px; } .slider-btn { font-size: 20px; padding: 6px 12px; } }
+    @media (min-width: 1024px) { .testi-grid { overflow-x: visible; flex-wrap: wrap; justify-content: center; } .testi-card { width: calc(33% - 24px); } }
+  </style>
+  <script>
+    // JSON-LD
+    const jsonLdOrg = {
+      "@context":"https://schema.org","@type":"Organization","name":"JUARA288","url":"https://juara288.com","logo":"https://juara288.com/logo.png","description":"Situs Game Digital Resmi Terpercaya Indonesia","foundingDate":"2020","contactPoint":{"@type":"ContactPoint","contactType":"customer support","availableLanguage":"Indonesian"}};
+    const jsonLdWeb = {"@context":"https://schema.org","@type":"WebSite","name":"JUARA288","url":"https://juara288.com","potentialAction":{"@type":"SearchAction","target":"https://juara288.com/search?q={search_term}","query-input":"required name=search_term"}};
+    const jsonLdFaq = {"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Apa itu Juara288?","acceptedAnswer":{"@type":"Answer","text":"Juara288 adalah situs game online resmi Indonesia."}},{"@type":"Question","name":"Apakah Juara288 aman?","acceptedAnswer":{"@type":"Answer","text":"Ya, situs kami telah mendapatkan lisensi resmi dari pemerintah indonesia dan situs juara288 selalu dilengkapi dengan enkripsi SSL."}}]};
+    const jsonLdBread = {"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Beranda","item":"https://juara288.com/"}]};
+    function addSchema(){ const head=document.head; const scripts=[jsonLdOrg,jsonLdWeb,jsonLdFaq,jsonLdBread]; scripts.forEach(data=>{const s=document.createElement('script');s.type='application/ld+json';s.textContent=JSON.stringify(data);head.appendChild(s);});}
+    window.onload=()=>{ addSchema(); initParticleCanvas(); initReveal(); initHamburger(); initSlider(); initTestiSlider(); initAccordions(); };
+    function initParticleCanvas(){ const canvas=document.getElementById('particle-canvas'); if(!canvas)return; const ctx=canvas.getContext('2d'); let width=window.innerWidth, height=window.innerHeight; let particles=[]; const PARTICLE_COUNT=80; canvas.width=width; canvas.height=height; for(let i=0;i<PARTICLE_COUNT;i++){ particles.push({x:Math.random()*width,y:Math.random()*height,radius:Math.random()*3+1,alpha:Math.random()*0.5+0.2,dx:(Math.random()-0.5)*0.5,dy:(Math.random()-0.5)*0.5}); } function draw(){ if(!ctx)return; ctx.clearRect(0,0,width,height); ctx.fillStyle='rgba(42,158,212,0.5)'; for(let p of particles){ ctx.beginPath(); ctx.arc(p.x,p.y,p.radius,0,Math.PI*2); ctx.fillStyle=`rgba(42,158,212,${p.alpha})`; ctx.fill(); p.x+=p.dx; p.y+=p.dy; if(p.x<0) p.x=width; if(p.x>width) p.x=0; if(p.y<0) p.y=height; if(p.y>height) p.y=0; } requestAnimationFrame(draw); } draw(); window.addEventListener('resize',()=>{ width=window.innerWidth; height=window.innerHeight; canvas.width=width; canvas.height=height; particles=[]; for(let i=0;i<PARTICLE_COUNT;i++){ particles.push({x:Math.random()*width,y:Math.random()*height,radius:Math.random()*3+1,alpha:Math.random()*0.5+0.2,dx:(Math.random()-0.5)*0.5,dy:(Math.random()-0.5)*0.5}); } }); }
+    function initReveal(){ const reveals=document.querySelectorAll('.reveal'); const observer=new IntersectionObserver((entries)=>{entries.forEach(e=>{if(e.isIntersecting){e.target.classList.add('active');}});},{threshold:0.1}); reveals.forEach(r=>observer.observe(r)); }
+    function initHamburger(){ const hamburger=document.querySelector('.hamburger'); const navLinks=document.querySelector('.nav-links'); if(hamburger) hamburger.addEventListener('click',()=>navLinks.classList.toggle('show')); }
+    function initSlider(){ const slides=document.querySelectorAll('.slide'); const wrapper=document.querySelector('.slider-wrapper'); const prev=document.querySelector('.prev'); const next=document.querySelector('.next'); const dotsDiv=document.querySelector('.dots'); if(!slides.length) return; let idx=0; let interval; function updateSlider(){ if(wrapper) wrapper.style.transform=`translateX(-${idx*100}%)`; document.querySelectorAll('.dot').forEach((d,i)=>{ d.classList.toggle('active',i===idx); }); } function createDots(){ if(dotsDiv){ dotsDiv.innerHTML=''; slides.forEach((_,i)=>{ const dot=document.createElement('span'); dot.classList.add('dot'); if(i===0) dot.classList.add('active'); dot.addEventListener('click',()=>{ idx=i; updateSlider(); resetInterval(); }); dotsDiv.appendChild(dot); }); } } function nextSlide(){ idx=(idx+1)%slides.length; updateSlider(); resetInterval(); } function prevSlide(){ idx=(idx-1+slides.length)%slides.length; updateSlider(); resetInterval(); } function startAuto(){ interval=setInterval(nextSlide,4000); } function resetInterval(){ clearInterval(interval); startAuto(); } if(prev) prev.addEventListener('click',prevSlide); if(next) next.addEventListener('click',nextSlide); createDots(); updateSlider(); startAuto(); const container=document.querySelector('.slider-container'); if(container){ container.addEventListener('mouseenter',()=>clearInterval(interval)); container.addEventListener('mouseleave',startAuto); } }
+    function initTestiSlider(){ const container=document.querySelector('.testi-grid'); if(!container)return; let autoInterval; function autoScroll(){ if(window.innerWidth<768){ container.scrollBy({left:280,behavior:'smooth'}); if(container.scrollLeft+container.clientWidth>=container.scrollWidth) container.scrollTo({left:0,behavior:'smooth'}); } } autoInterval=setInterval(autoScroll,5000); container.addEventListener('mouseenter',()=>clearInterval(autoInterval)); container.addEventListener('mouseleave',()=>{ autoInterval=setInterval(autoScroll,5000); }); }
+    function initAccordions(){ document.querySelectorAll('.accordion-item').forEach(item=>{ const header=item.querySelector('.accordion-header'); header.addEventListener('click',()=>{ const isActive=item.classList.contains('active'); document.querySelectorAll('.accordion-item').forEach(i=>i.classList.remove('active')); if(!isActive) item.classList.add('active'); }); }); }
+  </script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"Organization","name":"JUARA288","url":"https://juara288.com","logo":"https://juara288.com/logo.png","description":"Situs Game Digital Resmi Terpercaya Indonesia","foundingDate":"2020","contactPoint":{"@type":"ContactPoint","contactType":"customer support","availableLanguage":"Indonesian"}}</script><script type="application/ld+json">{"@context":"https://schema.org","@type":"WebSite","name":"JUARA288","url":"https://juara288.com","potentialAction":{"@type":"SearchAction","target":"https://juara288.com/search?q={search_term}","query-input":"required name=search_term"}}</script><script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Apa itu Juara288?","acceptedAnswer":{"@type":"Answer","text":"Juara288 adalah situs game online resmi Indonesia."}},{"@type":"Question","name":"Apakah Juara288 aman?","acceptedAnswer":{"@type":"Answer","text":"Ya, situs kami telah mendapatkan lisensi resmi dari pemerintah indonesia dan situs juara288 selalu dilengkapi dengan enkripsi SSL."}}]}</script><script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Beranda","item":"https://juara288.com/"}]}</script></head>
+<body>
+<canvas id="particle-canvas" width="412" height="4098"></canvas>
+<div class="wrapper">
+<nav><div class="container nav-flex"><div class="logo"><a href="https://juara288.com/"><img src="/logo.png" alt="JUARA288" style="height:50px; width:auto;"></a></div></div><button class="hamburger">☰</button><ul class="nav-links"><li><a href="https://juara288.com/" class="active">Beranda</a></li><li><a href="https://juara288.com/promo/">Promo</a></li><li><a href="https://juara288.com/daftar/">Daftar</a></li><li><a href="https://juara288.com/login/">Login</a></li><li><a href="https://juara288.com/tentang/">Tentang</a></li></ul></nav></div>
+<main>
+<section class="hero reveal active"><div class="container"><h1>Juara288 - Situs Game Online Resmi & Terpercaya Indonesia | Pilihan Game Terlengkap</h1><p style="font-size:1.2rem; max-width:800px; margin:20px auto;">Juara288 adalah situs game online resmi Indonesia yang hadir sebagai platform hiburan terpercaya dengan pengalaman bermain stabil, aman, dan pilihan game terlengkap untuk semua jenis game tahun ini.</p><div class="flex-buttons"><a href="https://juara288.com/mobile-amp/" class="btn-primary">Daftar Sekarang</a><a href="https://juara288.com/mobile-amp/" class="btn-secondary">Login DISINI</a></div></div></section>
+
+<section id="keunggulan" class="reveal active"><div class="container"><h2>Keunggulan Juara288</h2><div class="card-grid"><div class="card"><h3>Resmi & Terpercaya</h3><p>Berlisensi resmi dan diawasi langsung oleh Pemerintah Indonesia</p></div><div class="card"><h3>Transaksi Cepat</h3><p>Deposit/withdraw instant 24 jam | Tersedia Qris</p></div><div class="card"><h3>24/7 Bantuan Dukungan</h3><p>Layanan pelanggan ramah & profesional</p></div><div class="card"><h3>Ratusan Game Digital</h3><p>Tersedia Hingga Ratusan Permainan Online Terlenkap Dari Berbagai Provider Ternama</p></div></div></div></section>
+
+<section id="promo" class="reveal active"><div class="container"><h2>Promo Spesial Pengguna Baru</h2><div class="slider-container"><div class="slider-wrapper" style="transform: translateX(-100%);"><div class="slide"><h3>Welcome Bonus 100%</h3><p>Tambahan Extra Untuk Deposit Pertama Hingga 100%</p><a href="https://juara288.com/daftar/" class="btn-primary" style="margin-top:20px; display:inline-block;">Klaim Disini</a></div><div class="slide"><h3>Bonus Harian 10%</h3><p>Setiap hari tanpa batas claim</p><a href="https://juara288.com/daftar/" class="btn-primary">Daftar & Dapatkan</a></div><div class="slide"><h3>Bonus Referral 1%</h3><p>Komisi seumur hidup tanpa batas untuk setiap teman yang kamu ajak</p><a href="https://juara288.com/daftar/" class="btn-primary">Temukan Kode Refferal Anda Disini</a></div></div><button class="slider-btn prev">❮</button><button class="slider-btn next">❯</button><div class="dots"><span class="dot"></span><span class="dot active"></span><span class="dot"></span></div></div><div style="text-align:right; margin-top:20px;"><a href="https://juara288.com/promo/" style="color:#FFD700;">Lihat semua promo Juara288 →</a></div></div></section>
+
+<section id="testimoni" class="reveal active"><div class="container"><h2>Kata Pengguna Tentang Juara288</h2><div class="testi-grid"><div class="testi-card">★★★★★<p>"Juara288 benar benar platform yang bisa beri kesenangan dalam permainan, situs yang sangat stabil bikin pengalaman bermain lupa waktu"</p><strong>- Agus</strong></div><div class="testi-card">★★★★★<p>"Juara288 memang tiada tanding!, Platform ini selalu kasi saya bonus harian dan diberi beberapa rekomendasi bonus setiap harinya"</p><strong>- Rineda</strong></div><div class="testi-card">★★★★☆<p>"Promo lengkap!, layanan bantuan chat juara aktif 24jam, saya selalu mendapatkan fast respon ketika mengalami kendala"</p><strong>- Treraza</strong></div><div class="testi-card">★★★★★<p>"Pilihan gamenya lengkap bener, saya ga pernah satu haripun bisa bosen kalau pilihan gamenya selengkap Juara288"</p><strong>- wendi</strong></div><div class="testi-card">★★★★★<p>"Proses daftar & aksesnya tergolong mudah dan cepat, provider dan jenis gamenya juga banyak tinggal pilih sesuai minat"</p><strong>- Aheng</strong></div></div></div></section>
+
+<section id="faq" class="reveal active"><div class="container"><h2>Pertanyaan Umum</h2><div class="accordion-item"><div class="accordion-header">Apa itu Juara288? <span>▼</span></div><div class="accordion-content">Juara288 adalah platform game digital resmi terpercaya di Indonesia yang telah mendapatkan lisensi beroperasi resmi dalam memastikan penyediaan hiburan bagi masyarakat indonesia sejak 2015.</div></div><div class="accordion-item"><div class="accordion-header">Apakah Juara288 aman dan resmi? <span>▼</span></div><div class="accordion-content">Ya, berlisensi resmi pemerintah indonesia dan perlindungan website yang selalu terenkripsi & SSL.</div></div><div class="accordion-item"><div class="accordion-header">Bagaimana cara daftar? <span>▼</span></div><div class="accordion-content">Kunjungi halaman <a href="https://juara288.com/daftar/" style="color:#FFD700;">Daftar Juara288</a> dan ikuti petunjuknya.</div></div><div class="accordion-item"><div class="accordion-header">Apa saja game yang tersedia? <span>▼</span></div><div class="accordion-content">Ratusan game digital dari berbagai provider terbaik pilihan tahun ini.</div></div><div class="accordion-item"><div class="accordion-header">Cara menghubungi CS? <span>▼</span></div><div class="accordion-content">Anda bisa pergi pada menu kontak yang kami sediakan, pada bagian itu tersedia Whattsapp, link livechat dan Telegram CS Juara288</div></div><a href="https://juara288.com/tentang/" class="faq-link">Temukan berbagai pertanyaan lainnya →</a></div></section>
+
+<div class="container reveal active"><div class="cta-banner"><h2 style="border:none;">Siap Jadi Juara?</h2><div class="flex-buttons"><a href="https://juara288.com/daftar/" class="btn-primary">Daftar Sekarang</a><a href="https://juara288.com/login/" class="btn-secondary">Login</a></div></div></div>
+</main>
+<footer><div class="container"><div class="footer-grid"><div><img src="/logo.png" alt="JUARA288" style="height:50px; width:auto;"><p>Situs Game Online Resmi & Terpercaya Indonesia</p></div><div><h4>Menu</h4><p><a href="https://juara288.com/" style="color:white;">Beranda</a> | <a href="https://juara288.com/daftar/" style="color:white;">Daftar</a> | <a href="https://juara288.com/login/" style="color:white;">Login</a> | <a href="https://juara288.com/promo/" style="color:white;">Promo</a> | <a href="https://juara288.com/tentang/" style="color:white;">Tentang</a></p></div><div><h4>Social</h4><div class="social"><a href="https://wa.me/+6282277555913">WhatsApp</a> <a href="https://t.me/@Juara288_Official">Telegram</a> <a href="https://mail.google.com/mail/?view=cm&fs=1&to=juara228.official@gmail.com">Email</a></div></div></div><div class="copyright">© 2015 Juara288. All rights reserved. | Situs Game Resmi Terpercaya Indonesia</div></div></footer>
+
+<script>window.onload=window.onload;</script>
+<script type="module" src="https://static.cloudflareinsights.com/beacon.min.js/v4513226cdae34746b4dedf0b4dfa099e1781791509496" integrity="sha512-ZE9pZaUXND66v380QUtch/5sE9tPFh2zg45pR2PB0CVkCtOREv2AJKkSidISWkysEuQ0EH8faUU5du78bx87UQ==" data-cf-beacon='{"version":"2024.11.0","token":"ce949e5887904bb59d8210a6d6a9f882","r":1}' crossorigin="anonymous"></script>
+
+</body></html>

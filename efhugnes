@@ -9518,7 +9518,7 @@ function discoverDest() {
                                 </a>
                             </li>
                             <li class="footer-terms__item" role="listitem">
-                                <a class="footer-terms__link" href="/sitemap" an-as="">
+                                <a class="footer-terms__link" href="/sitemap.xml" an-as="">
                                     Peta Situs
                                 </a>
                             </li>
